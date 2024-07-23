@@ -15,7 +15,7 @@ const HeroSection = () => {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 2, ease: "easeInOut" }}
-            className="text-8xl font-SawarabiMincho p-2"
+            className="text-6xl lg:text-9xl font-SawarabiMincho p-2"
           >
             <span className="text-white">shawarma</span>
             <span className="text-[#FFA07A]"> subway.</span>
