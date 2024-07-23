@@ -15,23 +15,27 @@ const HeroSection = () => {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 2, ease: "easeInOut" }}
-            className="text-6xl lg:text-9xl font-SawarabiMincho p-2"
+            className="text-6xl lg:text-9xl font-SawarabiMincho text-white p-2"
           >
-            <span className="text-white">shawarma</span>
-            <span className="text-[#FFA07A]"> subway.</span>
+            shawarma 
+            subway.
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, x: -100 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.4 }}
-            className="p-4 font-Inter text-sm tracking-tighter text-white text-left"
+            className="p-4 font-Inter text-sm tracking-tighter text-orange-500 text-left"
           >
-            a delicious destination for all your shawarma cravings.
+            - a delicious destination for all your shawarma cravings.
           </motion.p>
         </div>
       </section>
     </div>
+  )
+}
+
+export default HeroSection
   )
 }
 
